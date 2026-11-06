@@ -1,0 +1,26 @@
+.gamepad-nav-hints {
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 18px;
+  padding: 10px 14px;
+  spacing: 6px;
+}
+
+.gamepad-nav-hint-row {
+  spacing: 10px;
+}
+
+.gamepad-nav-hint-glyphs {
+  spacing: 4px;
+  min-height: 26px;
+}
+
+.gamepad-nav-hint-label {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 11pt;
+}
+
+.gamepad-nav-glyph {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

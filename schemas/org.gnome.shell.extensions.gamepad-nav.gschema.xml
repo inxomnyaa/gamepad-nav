@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gamepad-nav" path="/org/gnome/shell/extensions/gamepad-nav/">
+    <key name="button-a" type="s"><default>"activate"</default></key>
+    <key name="button-b" type="s"><default>"back"</default></key>
+    <key name="button-x" type="s"><default>"context-menu"</default></key>
+    <key name="button-y" type="s"><default>"close-window"</default></key>
+    <key name="button-lb" type="s"><default>"scroll-prev"</default></key>
+    <key name="button-rb" type="s"><default>"scroll-next"</default></key>
+    <key name="button-lt" type="s"><default>"previous"</default></key>
+    <key name="button-rt" type="s"><default>"next"</default></key>
+    <key name="button-back" type="s"><default>"dock"</default></key>
+    <key name="button-start" type="s"><default>"app-grid"</default></key>
+    <key name="button-guide" type="s"><default>"overview"</default></key>
+    <key name="button-l3" type="s"><default>"none"</default></key>
+    <key name="button-r3" type="s"><default>"none"</default></key>
+    <key name="dpad" type="s"><default>"arrows"</default></key>
+    <key name="left-stick" type="s"><default>"arrows"</default></key>
+    <key name="right-stick" type="s"><default>"scroll"</default></key>
+    <key name="glyph-style" type="s"><default>"auto"</default></key>
+    <key name="show-hints" type="b"><default>true</default></key>
+    <key name="hints-position" type="s"><default>"bottom-right"</default></key>
+    <key name="guide-in-fullscreen" type="b"><default>false</default></key>
+    <key name="stick-threshold" type="i"><range min="10" max="90"/><default>50</default><summary>Stick deflection (percent) that counts as a press</summary></key>
+    <key name="repeat-delay" type="i"><range min="100" max="2000"/><default>380</default></key>
+    <key name="repeat-interval" type="i"><range min="30" max="1000"/><default>110</default></key>
+  </schema>
+</schemalist>

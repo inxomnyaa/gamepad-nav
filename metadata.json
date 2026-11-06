@@ -1,0 +1,11 @@
+{
+  "uuid": "gamepad-nav@inxomnyaa",
+  "name": "Gamepad Navigation",
+  "description": "Use the GNOME overview with a game controller. The Xbox/PS/Home button acts like Super (twice for the app grid), the D-pad and sticks move, and buttons launch, go back, open menus or close windows. Includes a button hint overlay that matches the controller (Xbox, PlayStation, Nintendo); everything can be remapped.",
+  "shell-version": [
+    "51"
+  ],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.gamepad-nav",
+  "url": "https://github.com/inxomnyaa/gamepad-nav"
+}
