@@ -4,7 +4,7 @@
 
 A GNOME Shell extension for using the overview with a game controller: open it with the Xbox/PS/Home button, move with the D-pad or sticks, and launch apps with A.
 
-![button hints](docs/hints-xbox.png) ![button hints, PlayStation](docs/hints-playstation.png)
+![Button hints in the window overview](docs/hints.png)
 
 <!-- TODO: add the demo video, same style as reticos-rgb, then remove this comment:
 ## Video
@@ -18,7 +18,7 @@ Navigating the overview with an Xbox 360 controller:
 
 - The **Xbox / PS / Home button** acts like the Super key: press it once for the overview, twice quickly for the app grid. Over fullscreen apps it does nothing, so games keep it (you can change that in the settings).
 - All other buttons only work while the overview is open, so nothing reaches games or apps.
-- A **button hint overlay** in a corner of the overview shows what each button does, drawn in the style of the connected controller (Xbox, PlayStation or Nintendo).
+- A **button hint overlay** in a corner of the overview shows what each button does, drawn in the style of the connected controller: Xbox (shown above), PlayStation or Nintendo. All glyphs are shown [further down](#glyphs).
 - Every button, the D-pad and both sticks can be remapped in the settings.
 
 Default layout (Xbox names):
