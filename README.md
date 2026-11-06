@@ -8,13 +8,12 @@ A GNOME Shell extension for using the overview with a game controller: open it w
 |---|---|
 | ![Button hints in the window overview](docs/hints-windows.png) | ![Button hints in the app grid](docs/hints-apps.png) |
 
-<!-- TODO: add the demo video, same style as reticos-rgb, then remove this comment:
-## Video
+## Videos
 
 Navigating the overview with an Xbox 360 controller:
 
-- https://youtube.com/shorts/...
--->
+- https://youtube.com/shorts/TPE61V_M3gw?feature=share (filmed on the phone)
+- https://youtu.be/sO2hOEltTkQ (screen recording of the desktop)
 
 ## What it does
 
