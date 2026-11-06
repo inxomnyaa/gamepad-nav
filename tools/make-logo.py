@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Draw the extension logo: ../docs/icon.svg (128x128 viewBox).
 
-A dark screen showing an app grid with one tile selected (the controller's
+A dark screen showing an 8-tile app grid with one tile selected (the controller's
 focus ring), and a light controller in front of it.
 """
 import pathlib
@@ -49,12 +49,12 @@ defs = grad('pad', '#ffffff', '#deddda') + grad('screen', '#3d3846', '#2a2533')
 body = "<rect x='10' y='14' width='108' height='76' rx='10' fill='#241f31'/>"   # screen depth
 body += "<rect x='10' y='10' width='108' height='76' rx='10' fill='url(#screen)'/>"
 
-# app grid: 3x2 tiles, bottom-middle one selected
+# app grid: 4x2 tiles, second tile of the bottom row selected
 s, g = 15, 6
-x0 = 64 - (3 * s + 2 * g) / 2
+x0 = 64 - (4 * s + 3 * g) / 2
 y0 = 17
-for i, color in enumerate([BLUE, GREEN, ORANGE, PURPLE, YELLOW, LIGHTBLUE]):
-    body += tile(x0 + (i % 3) * (s + g), y0 + (i // 3) * (s + g), s, color, 4.5)
+for i, color in enumerate([BLUE, GREEN, ORANGE, PURPLE, RED, YELLOW, '#33d17a', LIGHTBLUE]):
+    body += tile(x0 + (i % 4) * (s + g), y0 + (i // 4) * (s + g), s, color, 4.5)
 body += ring(x0 + (s + g), y0 + (s + g), s, 3, 4.5, 2.8)
 
 # controller in front
