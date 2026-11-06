@@ -1,10 +1,12 @@
-<img src="docs/icon.svg" width="96" align="right" alt="Gamepad Navigation icon">
+<p align="center"><img src="docs/icon.svg" width="128" alt="Gamepad Navigation icon"></p>
 
-# Gamepad Navigation
+<h1 align="center">Gamepad Navigation</h1>
 
 A GNOME Shell extension for using the overview with a game controller: open it with the Xbox/PS/Home button, move with the D-pad or sticks, and launch apps with A.
 
-![Button hints in the window overview](docs/hints.png)
+| Window overview | App grid |
+|---|---|
+| ![Button hints in the window overview](docs/hints-windows.png) | ![Button hints in the app grid](docs/hints-apps.png) |
 
 <!-- TODO: add the demo video, same style as reticos-rgb, then remove this comment:
 ## Video
