@@ -12,8 +12,8 @@ A GNOME Shell extension for using the overview with a game controller: open it w
 
 Navigating the overview with an Xbox 360 controller:
 
-- https://youtube.com/shorts/TPE61V_M3gw?feature=share (filmed on the phone)
-- https://youtu.be/sO2hOEltTkQ (screen recording of the desktop)
+- https://youtube.com/shorts/TPE61V_M3gw?feature=share (Short, vertical)
+- https://youtu.be/sO2hOEltTkQ (landscape)
 
 ## What it does
 
