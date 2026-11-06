@@ -1,3 +1,5 @@
+<img src="docs/icon.svg" width="96" align="right" alt="Gamepad Navigation icon">
+
 # Gamepad Navigation
 
 A GNOME Shell extension for using the overview with a game controller: open it with the Xbox/PS/Home button, move with the D-pad or sticks, and launch apps with A.
